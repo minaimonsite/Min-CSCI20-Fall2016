@@ -8,6 +8,7 @@ int main ()
     int dime = 0;
     int nickel = 0;
     int penny = 0;
+    double output = 0.0;
     cout << "Enter your amount in cents ";
     cin >> input;
     
@@ -20,10 +21,15 @@ int main ()
     nickel = change / 5;
     change = change % 5;
     
-    penny = change / 1;
+    penny = change;
+    output = input;
     
     cout << "Quaters " << quarters << endl << "Dimes " << dime << endl;
-    cout << "Nickels " << nickel << endl << "Penny " << penny;
+    cout << "Nickels " << nickel << endl << "Penny " << penny << endl;
+    cout << "Your total amount is " << output << "cents" << endl;
+    
+    output = input * 10.9 / 100;
+    cout << "Your total amount after the fee is $" << output;
     return 0;
     
 }
