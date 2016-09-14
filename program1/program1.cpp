@@ -1,3 +1,6 @@
+//Created by Min Ai Mon Site
+//9.12.2016
+//Calculates Calories expended in lifetime and the numbers of sandwiches equal to the calories expended
 #include <iostream>
 #include <string>
 using namespace std;
