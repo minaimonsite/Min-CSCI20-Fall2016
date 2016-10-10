@@ -1,3 +1,7 @@
+/* Min Site
+   Csci20 Lab3.3
+   10.10.2016
+*/
 #include <iostream>
 #include <string>
 using namespace std;
@@ -42,6 +46,8 @@ int main () {
             break;
         }
         break;
+        default:
+        cout << "Invalid answer" <<endl;
     }
     return 0;
 }
